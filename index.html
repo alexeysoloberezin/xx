@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>Home</title>
+    
+    <style>
+        .preloader{
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 200vw;
+            height: 200vh;
+            background: #F9F9F9;
+            z-index: 2000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: .75s;
+        }
+        .preloader.hide{
+            opacity: 0;
+            transform: translate(-50%, -50%) scale(0.8);
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body >
+
+   <div class="wrapper">
+       <header class="header animate bottomTop">
+           <div class="container">
+               <div class="header__row">
+       
+                       <a class="header__left logo" href="">
+                           <img src="assets/images/logoTwo.svg" alt="">
+                       </a>
+       
+                   <nav class="header__nav close-nav ">
+                       <div class="header__nav-close close-nav onMob">
+                           <img class="close-nav" src="assets/images/closeWhite.svg" alt="">
+                       </div>
+                       <ul class="contacts">
+                           <li><a href="#">Lyceysky Lane 1/4, Pushkin</a></li>
+                           <li><a href="tel:+79991196690">T: +7 999 119 66 90</a></li>
+                           <li><a href="mailto:YOUMAIL">@cherchez_la_tarte</a></li>
+                       </ul>
+                   </nav>
+       
+                   <div class="burger ">
+                       <img src="assets/images/burger.svg" alt="">
+                   </div>
+               </div>
+           </div>
+       </header>
+       
+       <div class="popupNav">
+           <div class="container">
+               <div class="popupNav__block">
+                   <div class="popupNav__head">
+                       <div class="logo base">
+                           <img src="assets/images/logo.svg" alt="">
+                       </div>
+                       <div class="burger burger-close">
+                           <img src="assets/images/close2.svg" alt="">
+                       </div>
+                   </div>
+                   <div class="popupNav__wrp">
+                       <nav>
+                           <ul>
+                               <li><a href="https://alexeysoloberezin.github.io/xx/index.html">home</a></li>
+                               <li><a href="https://alexeysoloberezin.github.io/xx/about.html">about</a></li>
+                               <li><a href="https://alexeysoloberezin.github.io/xx/disserts.html">desserts</a></li>
+                               <li><a href="https://alexeysoloberezin.github.io/xx/contacts.html">contact</a></li>
+                               <li><a href="https://alexeysoloberezin.github.io/xx/index.html">order</a></li>
+                           </ul>
+                       </nav>
+                       <div class="popupNav__r">
+                           <img src="assets/images/navImg.png" alt="">
+                       </div>
+                   </div>
+                   <div class="popupNav__box">
+                       <ul class="contacts">
+                           <li><a href="#">Lyceysky Lane 1/4, Pushkin</a></li>
+                           <li><a href="tel:+79991196690">T: +7 999 119 6690</a></li>
+                           <li><a href="mailto:MAILTO">@cherchez_la_tarte</a></li>
+                       </ul>
+                   </div>
+               </div>
+           </div>
+       </div>
+       
+       
+
+       <main >
+           
+           <div class="blockLetters">
+               <div class="hoverImages">
+                   <div><img loading="lazy" src="https://lebibent.com/wp-content/uploads/bibent-savoir-faire-cuisine-0.jpg" alt=""></div>
+                   <div><img loading="lazy" src="https://lebibent.com/wp-content/uploads/bibent-savoir-faire-cuisine-1.jpg" alt=""></div>
+                   <div><img loading="lazy" src="https://lebibent.com/wp-content/uploads/bibent-savoir-faire-cuisine-2.jpg" alt=""></div>
+                   <div><img loading="lazy" src="https://lebibent.com/wp-content/uploads/bibent-savoir-faire-cuisine-3.jpg" alt=""></div>
+                   <div><img loading="lazy" src="https://lebibent.com/wp-content/uploads/bibent-savoir-faire-cuisine-4.jpg" alt=""></div>
+                   <div><img loading="lazy" src="https://lebibent.com/wp-content/uploads/bibent-savoir-faire-cuisine-5.jpg" alt=""></div>
+                   <div><img loading="lazy" src="https://lebibent.com/wp-content/uploads/bibent-savoir-faire-cuisine-6.jpg" alt=""></div>
+               </div>
+               <div class="letters" style="opacity: 0;position: absolute;pointer-events: none">
+                   <img class="letter1" data-x="890" data-y="400" data-w="100" data-h="64" src="assets/images/letters/r.svg"
+                        alt="">
+                   <img class="letter1" data-x="900" data-y="420" data-w="100" data-h="64" src="assets/images/letters/r.svg"
+                        alt="">
+                   <img class="letter2" data-x="910" data-y="440" data-w="60" data-h="64" src="assets/images/letters/a.svg" alt="">
+                   <img class="letter2" data-x="920" data-y="440" data-w="60" data-h="64" src="assets/images/letters/a.svg" alt="">
+                   <img class="letter3" data-x="930" data-y="460" data-w="60" data-h="64" src="assets/images/letters/t.svg" alt="">
+                   <img class="letter3" data-x="930" data-y="350" data-w="60" data-h="64" src="assets/images/letters/t.svg" alt="">
+                   <img class="letter4" data-x="920" data-y="300" data-w="48" data-h="64" src="assets/images/letters/e.svg" alt="">
+                   <img class="letter4" data-x="750" data-y="350" data-w="48" data-h="64" src="assets/images/letters/e.svg" alt="">
+                   <img class="letter5" data-x="910" data-y="400" data-w="70" data-h="70" src="assets/images/letters/h.svg" alt="">
+                   <img class="letter5" data-x="900" data-y="350" data-w="70" data-h="70" src="assets/images/letters/h.svg" alt="">
+                   <img class="letter6" data-x="900" data-y="300" data-w="63" data-h="85" src="assets/images/letters/z.svg" alt="">
+                   <img class="letter6" data-x="890" data-y="440" data-w="63" data-h="85" src="assets/images/letters/z.svg" alt="">
+                   <img class="letter7" data-x="880" data-y="400" data-w="65" data-h="70" src="assets/images/letters/tt.svg"
+                        alt="">
+                   <img class="letter7" data-x="700" data-y="450" data-w="65" data-h="70" src="assets/images/letters/tt.svg"
+                        alt="">
+                   <img class="letter8" data-x="870" data-y="285" data-w="100" data-h="80" src="assets/images/letters/rr.svg"
+                        alt="">
+               </div>
+               <canvas></canvas>
+               <div class="main">
+                   <div class="container">
+                       <div class="main__box">
+                           <div class="main__img">
+                               <img src="assets/images/main1.png" alt="">
+                           </div>
+                           <!--            <div class="letter" data-revers="2" data-speed="1" style="&#45;&#45;m: -358px 0 0 -249px;"><img src="assets/images/letters/r.svg" alt=""></div>-->
+                           <!--            <div class="letter" data-revers="2" data-speed="2" style="&#45;&#45;m: 281px 0 0 -328px;"><img src="assets/images/letters/rr.svg" alt=""></div>-->
+                           <!--            <div class="letter" data-revers="3" data-speed="3" style="&#45;&#45;m: 393px 0 0 -496px;&#45;&#45;w: 64px; &#45;&#45;h: 100px"><img src="assets/images/letters/a.svg" alt=""></div>-->
+                           <!--            <div class="letter" data-revers="4" data-speed="1" style="&#45;&#45;m: 349px 0 0 78px;&#45;&#45;w: 82px;"><img src="assets/images/letters/t.svg" alt=""></div>-->
+                           <!--            <div class="letter" data-revers="1" data-speed="2" style="&#45;&#45;m: 117px 0 0 -351px;&#45;&#45;w: 65px;"><img src="assets/images/letters/tt.svg" alt=""></div>-->
+                           <!--            <div class="letter" data-revers="2" data-speed="1" style="&#45;&#45;m: 144px 0 0 364px;&#45;&#45;w: 48px;"><img src="assets/images/letters/e.svg" alt=""></div>-->
+                           <!--            <div class="letter" data-revers="3" data-speed="3" style="&#45;&#45;m: 249px 0 0 316px;&#45;&#45;w: 48px;"><img src="assets/images/letters/e.svg" alt=""></div>-->
+                           <!--            <div class="letter" data-revers="4" data-speed="2" style="&#45;&#45;m: 192px 0 0 507px;&#45;&#45;w: 63px;"><img src="assets/images/letters/z.svg" alt=""></div>-->
+                           <!--            <div class="letter" data-revers="1" data-speed="1" style="&#45;&#45;m: -287px 0 0 234px;&#45;&#45;w: 70px;"><img src="assets/images/letters/h.svg" alt=""></div>-->
+                       </div>
+                   </div>
+               </div>
+           </div>
+           
+           <div class="afterLetters">
+               <div class="home ">
+                   <div class="container">
+                       <div class="home__box">
+                           <h1 class="title animate animateCenter" style="--mTitle: 0 0 0 187px">
+                               <span>new</span>
+                               <span>backery</span>
+                               <span>in the</span>
+                               <span>Town</span>
+                           </h1>
+                           <div class="textBox ">
+                               <div class="home__txt">
+                                   <p class="animate" data-delay="200">It is a long established fact that a reader will be
+                                       distracted by the readable content of a page when
+                                       looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                                       distribution of letters, as opposed to using 'Content here, content here', making it look
+                                       like
+                                       readable English.</p>
+                                   <p class="animate" data-delay="300">Many desktop publishing packages and web page editors now
+                                       use Lorem Ipsum as their default model
+                                       text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+                                   </p>
+                               </div>
+                               <a href="#" class="btn btn-black animate" data-delay="400">discover</a>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           
+               <div class="container">
+                   <div class="images">
+                       <div class="imageBox animate bottomTop" data-delay="0" style="--margin: 96px 0 0 80px;">
+                           <div class="image"><img src="assets/images/imgs/img5.jpg" alt=""></div>
+                       </div>
+                       <div class="imageBox animate bottomTop" data-delay="300" style="--margin: 0 40px 0 0;">
+                           <div class="image"><img src="assets/images/imgs/img6.jpg" alt=""></div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div class="afterLetters-offset"></div>
+           
+           <div class="container">
+               <div>
+                   <h1 class="title animate animateCenter" style="--mTitle: 0 0 0 161px;--p2: 0 0 0 1.98em;--p3: 0 0 0 1.478em">
+                       <span>discover</span>
+                       <span>our</span>
+                       <span>desserts</span>
+                   </h1>
+                   <div class="textBox">
+                       <div class="home__txt animate" data-delay="200">
+                           <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model
+                               text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+                       </div>
+                       <a href="#" class="btn btn-black animate" data-delay="300">see all our deserts</a>
+                   </div>
+               </div>
+           </div>
+           
+           <div class="container">
+               <div class="images">
+                   <div class="imageBox animate bottomTop">
+                       <div class="image">
+                           <img src="assets/images/imgs/img1.jpg" alt="">
+                           <div class="images__info">
+                               <h5>sweet pears</h5>
+                               <div>800 rub / 2 pc</div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="imageBox animate bottomTop" data-delay="200" style="--margin: 96px 0 0 0;">
+                       <div class="image">
+                           <img src="assets/images/imgs/img2.jpg" alt="">
+                           <div class="images__info">
+                               <h5>strawberry cake</h5>
+                               <div>800 rub / 1 pc</div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="imageBox animate bottomTop" data-delay="350" style="--margin: -23px 0 0 181px">
+                       <div class="image">
+                           <img src="assets/images/imgs/img3.jpg" alt="">
+                           <div class="images__info">
+                               <h5>morning porridge</h5>
+                               <div>800 rub / 1 pc</div>
+                           </div>
+                       </div>
+           
+                   </div>
+               </div>
+           </div>
+           
+           <div class="container">
+               <div class="time">
+                   <h1 class="title" style="--mTitle: -11px 0 0 161px;--p2: 0px 0 0 631px;--p3: 82px 0 0 195px;--p4: 0 0 0 450px">
+                       <span class="animate" data-delay="100">Mon</span>
+                       <span class="animate" data-delay="200">To sun</span>
+                       <span class="animate" data-delay="300">08:00 — 20:00</span>
+                       <span class="animate" data-delay="400">∞</span>
+                   </h1>
+               </div>
+           </div>
+           
+           <div class="bigImg animate bottomTop">
+               <div class="container">
+                   <div class="bigImg__box">
+                       <img src="assets/images/imgs/img4.jpg" alt="">
+           
+                   </div>
+               </div>
+           </div>
+           
+           
+           
+       </main>
+
+       <footer class="footer">
+           <div class="container">
+               <div class="footer__box animate bottomTop">
+                   <ul>
+                       <li><a href="#">Lyceysky Lane 1/4, Pushkin</a></li>
+                       <li><a href="tel:+79991196690">T: +7 999 119 66 90</a></li>
+                       <li><a href="mailto:MAILTO">@cherchez_la_tarte</a></li>
+                   </ul>
+                   <ul>
+                       <li>monday to sunday</li>
+                       <li>08:00 — 20:00</li>
+                       <li>nonstop</li>
+                   </ul>
+               </div>
+               <div class="footer__wrp animate bottomTop" data-delay="250">
+                   <div>
+                       <span style="transform: scale(1.2);display: inline-block">©</span>
+                       2022 Galerie LANDA. <span class="onDesc">all rights reserved.</span>
+                   </div>
+                   <div class="onDesc">
+                       created by otomweb
+                   </div>
+               </div>
+           </div>
+       </footer>
+       
+   </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
